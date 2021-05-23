@@ -18,7 +18,8 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "Hi";
+            label1.Text = "Hi";//This is master
+            MessageBox.Show("Hi Rohit"); // Parallel Coding
         }
     }
 }
